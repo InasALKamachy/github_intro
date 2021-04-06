@@ -1,0 +1,19 @@
+create new repository " demo"
+open git_Bash
+cd Downloads
+git clone "past ssh of repository"
+cd demo
+#view files
+ls
+# read Readme.md
+cat README.md
+# create new text file
+echo Text example >test.txt
+vi test.txt
+#write in txt file then press ctr+c then type :q! to quit
+git add test.txt
+git commit -m "initial commit"
+git push
+
+
+
