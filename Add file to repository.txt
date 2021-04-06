@@ -1,0 +1,13 @@
+To pull the file that is added in remote repository to local repository, we use PULL command git pull
+To add a branch in master branch git branch branchname
+
+Switch the branch git checkout branchname
+
+Adding a file in branch echo "#content">> filename.txt
+
+Then add the file and push the file. To create the branch remotely we have to use git push --set-upstream origin branchname
+Switch the branch again to the master using git checkout master
+
+Merge command to merge the branches git merge mybranch
+
+As the merge command is used the new create branch will be merged to the master branch and the file will be inserted to it. Previously, we have 2 file in the master, now there are 3 files. Make sure to push the files using git push
